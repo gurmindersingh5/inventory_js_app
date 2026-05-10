@@ -1,9 +1,8 @@
 import { products } from './data/products.js';
-import './styles.css';
 
 function assetUrl(path) {
   if (!path) return '';
-  return `${import.meta.env.BASE_URL}${path}`;
+  return path;
 }
 
 // State
